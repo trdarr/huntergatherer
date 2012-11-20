@@ -28,7 +28,7 @@ $conf['app']['convert'] = '/usr/bin/convert';
 
 //handler that gets invoked when APP_ROOT is requested
 //$conf['default_handler'] = 'collections';
-$conf['app']['default_handler'] = 'install';
+$conf['app']['default_handler'] = 'index';
 
 //should be false in PROD
 $conf['app']['template_auto_reload'] = false;
