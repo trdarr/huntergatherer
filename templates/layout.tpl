@@ -8,13 +8,15 @@
   <body>
     <div class="container">
       <header class="container">
-        <h1>{{ block('title') }}</h1>
+        <h1><a href="/huntergatherer" style="color: inherit">Hunter-Gatherer Language Database</a></h1>
       </header>
       <div id="body" class="container">
+        {% block subtitle %}{% endblock %}
+        {% block flash %}{% endblock %}
         {% block content %}{% endblock %}
       </div>
       <footer class="container">
-        <p>&copy; 2012 The University of Texas at Austin</p>
+        <small class="muted">&copy; 2012 The University of Texas at Austin</small>
       </footer>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
