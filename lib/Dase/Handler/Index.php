@@ -6,7 +6,7 @@ class Dase_Handler_Index extends Dase_Handler {
   );
 
   public function getIndex($r) {
-    $r->renderResponse('Hello.');
+    $r->renderTemplate('index.tpl');
   }
 }
 
