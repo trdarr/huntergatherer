@@ -9,19 +9,16 @@ require_once 'Dase/DBO.php';
  * 
  */
 
-class Dase_DBO_Autogen_User extends Dase_DBO 
+class Dase_DBO_Autogen_PartsOfSpeech extends Dase_DBO 
 {
 	public function __construct($db,$assoc = false) 
 	{
-		parent::__construct($db,'user', array('eid','name','email','is_admin'));
+		parent::__construct($db,'parts_of_speech', array('name'));
 		if ($assoc) {
 			foreach ( $assoc as $key => $value) {
 				$this->fields[$key] = $value;
 			}
 		}
 	}
-    public function getEid() { return $this->fields["eid"]; }
     public function getName() { return $this->fields["name"]; }
-    public function getEmail() { return $this->fields["email"]; }
-    public function getIs_admin() { return $this->fields["is_admin"]; }
 }

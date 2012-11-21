@@ -9,11 +9,11 @@ require_once 'Dase/DBO.php';
  * 
  */
 
-class Dase_DBO_Autogen_LanguageFamilies extends Dase_DBO 
+class Dase_DBO_Autogen_SemanticFields extends Dase_DBO 
 {
 	public function __construct($db,$assoc = false) 
 	{
-		parent::__construct($db,'language_families', array('created_at','updated_at','created_by','updated_by','name'));
+		parent::__construct($db,'semantic_fields', array('created_at','updated_at','created_by','updated_by','name'));
 		if ($assoc) {
 			foreach ( $assoc as $key => $value) {
 				$this->fields[$key] = $value;

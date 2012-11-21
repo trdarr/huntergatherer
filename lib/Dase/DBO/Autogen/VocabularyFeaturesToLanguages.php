@@ -9,11 +9,11 @@ require_once 'Dase/DBO.php';
  * 
  */
 
-class Dase_DBO_Autogen_GrammaticalFeaturesToLanguages extends Dase_DBO 
+class Dase_DBO_Autogen_VocabularyFeaturesToLanguages extends Dase_DBO 
 {
 	public function __construct($db,$assoc = false) 
 	{
-		parent::__construct($db,'grammatical_features_to_languages', array('feature_id','language_id','source'));
+		parent::__construct($db,'vocabulary_features_to_languages', array('feature_id','language_id','original_form','ipa_form'));
 		if ($assoc) {
 			foreach ( $assoc as $key => $value) {
 				$this->fields[$key] = $value;
@@ -22,5 +22,6 @@ class Dase_DBO_Autogen_GrammaticalFeaturesToLanguages extends Dase_DBO
 	}
     public function getFeature_id() { return $this->fields["feature_id"]; }
     public function getLanguage_id() { return $this->fields["language_id"]; }
-    public function getSource() { return $this->fields["source"]; }
+    public function getOriginal_form() { return $this->fields["original_form"]; }
+    public function getIpa_form() { return $this->fields["ipa_form"]; }
 }

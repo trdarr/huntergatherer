@@ -9,11 +9,11 @@ require_once 'Dase/DBO.php';
  * 
  */
 
-class Dase_DBO_Autogen_LanguageFamilies extends Dase_DBO 
+class Dase_DBO_Autogen_VocabularyFeatures extends Dase_DBO 
 {
 	public function __construct($db,$assoc = false) 
 	{
-		parent::__construct($db,'language_families', array('created_at','updated_at','created_by','updated_by','name'));
+		parent::__construct($db,'vocabulary_features', array('created_at','updated_at','created_by','updated_by','english','field_id','pos_id'));
 		if ($assoc) {
 			foreach ( $assoc as $key => $value) {
 				$this->fields[$key] = $value;
@@ -24,5 +24,7 @@ class Dase_DBO_Autogen_LanguageFamilies extends Dase_DBO
     public function getUpdated_at() { return $this->fields["updated_at"]; }
     public function getCreated_by() { return $this->fields["created_by"]; }
     public function getUpdated_by() { return $this->fields["updated_by"]; }
-    public function getName() { return $this->fields["name"]; }
+    public function getEnglish() { return $this->fields["english"]; }
+    public function getField_id() { return $this->fields["field_id"]; }
+    public function getPos_id() { return $this->fields["pos_id"]; }
 }
