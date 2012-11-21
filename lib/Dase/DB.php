@@ -38,6 +38,11 @@ class Dase_DB {
         if ($this->cert) {
             $driverOpts[PDO::MYSQL_ATTR_SSL_CA] = $this->cert;
         }
+
+    // Forces UTF-8 on PDO connection.
+    // See: http://stackoverflow.com/questions/4475548/pdomysql-and-utf-8-encoding-problem
+    $driverOpts[PDO::MYSQL_ATTR_INIT_COMMAND] = 'SET NAMES utf8';
+
 		if ('sqlite' == $this->type) {
 			$dsn = "sqlite:".$this->path;
 		} else {
