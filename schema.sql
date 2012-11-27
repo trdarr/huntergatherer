@@ -227,7 +227,7 @@ CREATE TABLE `vocabulary_features_to_languages` (
   KEY `language_id` (`language_id`),
   CONSTRAINT `vocabulary_features_to_languages_ibfk_2` FOREIGN KEY (`language_id`) REFERENCES `languages` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `vocabulary_features_to_languages_ibfk_1` FOREIGN KEY (`feature_id`) REFERENCES `vocabulary_features` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -239,4 +239,4 @@ CREATE TABLE `vocabulary_features_to_languages` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-11-21  0:53:24
+-- Dump completed on 2012-11-21  1:17:43
