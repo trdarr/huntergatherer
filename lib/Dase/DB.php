@@ -54,6 +54,9 @@ class Dase_DB {
 				$this->dbh->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY,true);
 				//http://netevil.org/blog/2006/apr/using-pdo-mysql
 				$this->dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, true);
+
+        // Force PDO to throw PDOExceptions, rather than read error codes.
+        $this->dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			}
 		} catch (PDOException $e) {
 			throw new  PDOException('connect failed: ' . $e->getMessage());
