@@ -7,7 +7,8 @@ syntactical features of certain hunter-gatherer languages, designed to
 facilitate the exploration of the data and to aid in phylogenetic research
 regarding the concerned languages.
 
-The live application is available at [http://laits.utexas.edu/huntergatherer/]().
+The live application is available
+[here](http://laits.utexas.edu/huntergatherer/).
 
 
 Development
@@ -34,8 +35,9 @@ namely:
 * [Twig][], a template engine;
 * [Bootstrap][], a front-end framework;
 * [Font Awesome][], an iconic font designed for Boostrap;
-* [LESS][], the dynamic stylesheet language; and
-* [PHP Markdown][], a renderer for [Markdown][]-formatted text.
+* [LESS][], a dynamic stylesheet language;
+* [PHP Markdown][], a renderer for [Markdown][]-formatted text; and
+* [Bacon Ipsum][], a meat-flavored *lorem ipsum* generator.
 
 [Twig]: <http://twig.sensiolabs.org/>
 [Bootstrap]: <http://getbootstrap.org/>
@@ -43,21 +45,21 @@ namely:
 [LESS]: <http://lesscss.org/>
 [PHP Markdown]: <http://michelf.ca/projects/php-markdown/>
 [Markdown]: <http://daringfireball.net/projects/markdown/>
+[Bacon Ipsum]: <http://baconipsum.com/>
 
 
 Research
---------
-
-This software is based upon work supported by grant awarded to [Yale
+--------------------------------------------------------------------------------
+This software is based upon work supported by [**BCS-0902114** "Dynamics of
+Hunter-Gatherer Language Change"][grant], a grant awarded to [Yale
 University][Yale] by the [Division of Behavioral and Cognitive Sciences
-(BCS)][BCS] of the [National Science Foundation (NSF)][NSF], [**BCS-0902114**
-"Dynamics of Hunter-Gatherer Language Change"][grant]. Any opinions,
+(BCS)][BCS] of the [National Science Foundation (NSF)][NSF], Any opinions,
 findings, and conclusions or recommendations expressed in this material are
 those of the author(s) and do not necessarily reflect the views of the NSF.
 
 [Yale]: <http://yale.edu/>
-[BCS]: <https://nsf.gov/div/index.jsp?div=bcs>
-[NSF]: <https://nsf.gov/>
+[BCS]: <http://nsf.gov/div/index.jsp?div=bcs>
+[NSF]: <http://nsf.gov/>
 [grant]: <http://nsf.gov/awardsearch/showAward?AWD_ID=0902114>
 
 The principal investigator is [Dr. **Claire Bowern**](),
@@ -89,5 +91,6 @@ Affiliated persons include:
   [Australian National University](http://anu.edu.au/);
 * with contributions from other researchers as attributed.
 
-For more information, see: [http://webspace.yale.edu/huntergatherer/index.html]().
+For more information, see [Dynamics of Hunter-Gatherer Language
+Change](http://webspace.yale.edu/huntergatherer/index.html) at Yale.
 

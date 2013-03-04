@@ -39,7 +39,7 @@ class Dase_Handler_Import extends Dase_Handler {
   }
 
   protected function getGrammarByFamily($r) {
-    $file = sprintf('%s/files/uploads/%s.tsv',
+    $file = sprintf('%s/files/uploads/%s.csv',
       BASE_PATH, basename($r->get('family')));
 
     if (is_readable($file)) {

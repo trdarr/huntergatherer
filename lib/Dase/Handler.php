@@ -53,7 +53,11 @@ class Dase_Handler {
 				$method = $this->determineMethod($resource,$r);
 				$r->log->logDebug("try method $method");
 				if (method_exists($this,$method)) {
-					$r->resource = $resource;
+          $r->resource = $resource;
+
+          // Pre-assign the lowercased class name to $handler.
+          $r->assign('handler', array_pop(explode('_', strtolower(get_class($this)))));
+
 					$this->setup($r);
 					$this->{$method}($r); //should exit
 					$r->renderError(501,'empty method '.$method);
