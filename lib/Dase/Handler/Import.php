@@ -1,8 +1,8 @@
 <?php
 
 // Who needs autoloading when you have manual imports?
-require_once BASE_PATH . '/GrammarImporter.php';
-require_once BASE_PATH . '/LanguagesImporter.php';
+require_once BASE_PATH . '/lib/GrammarImporter.php';
+require_once BASE_PATH . '/lib/LanguagesImporter.php';
 
 class Dase_Handler_Import extends Dase_Handler {
   protected $resource_map = array(
