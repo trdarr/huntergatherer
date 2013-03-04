@@ -36,8 +36,9 @@ namely:
 * [Bootstrap][], a front-end framework;
 * [Font Awesome][], an iconic font designed for Boostrap;
 * [LESS][], a dynamic stylesheet language;
-* [PHP Markdown][], a renderer for [Markdown][]-formatted text; and
-* [Bacon Ipsum][], a meat-flavored *lorem ipsum* generator.
+* [PHP Markdown][], a renderer for [Markdown][]-formatted text;
+* [Bacon Ipsum][], a meat-flavored *lorem ipsum* generator; and
+* [EditableGrid][], a JS library for editable tables.
 
 [Twig]: <http://twig.sensiolabs.org/>
 [Bootstrap]: <http://getbootstrap.org/>
@@ -46,6 +47,7 @@ namely:
 [PHP Markdown]: <http://michelf.ca/projects/php-markdown/>
 [Markdown]: <http://daringfireball.net/projects/markdown/>
 [Bacon Ipsum]: <http://baconipsum.com/>
+[EditableGrid]: <http://editablegrid.net/>
 
 
 Research
