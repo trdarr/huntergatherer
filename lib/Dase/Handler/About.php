@@ -1,6 +1,6 @@
 <?php
 
-require_once BASE_PATH . '/lib/Markdown.php';
+require_once BASE_PATH . '/lib/markdown.php';
 
 class Dase_Handler_About extends Dase_Handler {
   protected $resource_map = array(
