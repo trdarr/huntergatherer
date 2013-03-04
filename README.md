@@ -72,7 +72,7 @@ The co-principal investigators are:
   [Anthropology](http://anthropology.arizona.edu/) and
   [Linguistics](http://linguistics.arizona.edu/),
   [University of Arizona](http://arizona.edu/); and
-* [Dr. **Keith Hunley**](http://www.unm.edu/~anthro/people_faculty_keith_hunley.html),
+* [Dr. **Keith Hunley**](http://unm.edu/~anthro/people_faculty_keith_hunley.html),
   [Anthropology](http://unm.edu/~anthro/),
   [University of New Mexico](http://unm.edu/).
 
