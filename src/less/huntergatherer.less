@@ -1,0 +1,35 @@
+.v-padded (@width: 2em) {
+  padding-top: @width;
+  padding-bottom: @width;
+}
+
+header,
+footer { .v-padded; }
+
+#body {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+  .v-padded;
+
+  h2 { margin-top: 0; }
+}
+
+footer { .v-padded; }
+
+
+.accordion-heading {
+  font-weight: bold;
+  background-color: #ddd;
+}
+
+.accordion-toggle {
+  color: inherit;
+  &:hover { color: inherit; }
+  small { font-weight: normal; }
+}
+
+h1 > a {
+  color: inherit;
+  &:hover { color: inherit; }
+}
+
