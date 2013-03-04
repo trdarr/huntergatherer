@@ -4,3 +4,6 @@
 [submodule "lib/font-awesome"]
 	path = lib/font-awesome
 	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "lib/editablegrid"]
+	path = lib/editablegrid
+	url = https://github.com/webismymind/editablegrid.git
