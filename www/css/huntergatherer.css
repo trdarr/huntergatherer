@@ -1,0 +1,37 @@
+header,
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#body {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#body h2 {
+  margin-top: 0;
+}
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.accordion-heading {
+  font-weight: bold;
+  background-color: #ddd;
+}
+.accordion-toggle {
+  color: inherit;
+}
+.accordion-toggle:hover {
+  color: inherit;
+}
+.accordion-toggle small {
+  font-weight: normal;
+}
+h1 > a {
+  color: inherit;
+}
+h1 > a:hover {
+  color: inherit;
+}
